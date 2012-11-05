@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "script to quickly init a coffee project. Including cakfile file",
   "main": "bin/index.js",
+  "bin": {
+    "bake-a-cake":"./bin/bake-a-cake"
+  },
   "scripts": {
     "test": "cake test"
   },
