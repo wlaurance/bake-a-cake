@@ -3,3 +3,4 @@ npm init
 npm install mocha should coffee-script colors -D
 DIR=$( cd "$( dirname "$0" )" && pwd )
 cp $DIR/../files/Cakefile .
+mkdir "lib" "src" "test"
