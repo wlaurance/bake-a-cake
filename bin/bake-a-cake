@@ -1,3 +1,5 @@
-#!/usr/bin/env node
-require(__dirname + '/../lib/bake-a-cake')
-
+#!/bin/sh
+npm init
+npm install mocha should coffee-script colors -D
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cp $DIR/../files/Cakefile .
