@@ -1,0 +1,31 @@
+{
+  "name": "bake-a-cake",
+  "version": "0.0.0",
+  "description": "script to quickly init a coffee project. Including cakfile file",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wlaurance/bake-a-cake.git"
+  },
+  "keywords": [
+    "Coffee-script",
+    "bootstrap",
+    "script",
+    "cake",
+    "init"
+  ],
+  "author": "Will S. Laurance",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~1.0.5"
+  },
+  "devDependencies": {
+    "should": "~1.2.1",
+    "coffee-script": "~1.4.0",
+    "mocha": "~1.6.0",
+    "colors": "~0.6.0-1"
+  }
+}
