@@ -1,6 +1,6 @@
 {
   "name": "bake-a-cake",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "script to quickly init a coffee project. Including cakfile file",
   "main": "bin/index.js",
   "bin": {
