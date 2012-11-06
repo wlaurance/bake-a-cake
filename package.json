@@ -6,9 +6,6 @@
   "bin": {
     "bake-a-cake": "./bin/bake-a-cake"
   },
-  "files": [
-    "files"
-  ],
   "scripts": {
     "test": "cake test"
   },
